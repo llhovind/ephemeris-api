@@ -19,14 +19,14 @@ Can be called without any query parameters and it will return the current day's 
 
 <table>
 <thead>
-<th>Parameter</th><th>Values</th>
+<tr><th>Parameter</th><th>Values</th></tr>
 </thead>
 <tbody>
-<tr><td>models<td><td>Geo, Helio</td></tr>
-<tr><td>planets<td><td>Integers from 0 to 14</td></tr>
-<tr><td>startDate<td><td>Date string, i.e. "2023-06-10"</td></tr>
-<tr><td>endDate<td><td>Like startDate, but must be after startDate</td></tr>
-<tr><td>count<td><td>Number of days from startDate</td></tr>
+<tr><td>models</td><td>Geo, Helio</td></tr>
+<tr><td>planets</td><td>Integers from 0 to 14</td></tr>
+<tr><td>startDate</td><td>Date string, i.e. "2023-06-10"</td></tr>
+<tr><td>endDate</td><td>Like startDate, but must be after startDate</td></tr>
+<tr><td>count</td><td>Number of days from startDate</td></tr>
 <tbody>
 </table>
 
